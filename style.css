@@ -219,6 +219,9 @@ nav .container {
 }
 
 .projects {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     background-color: var(--secondary);
     position: relative;
     overflow: hidden;
@@ -241,6 +244,8 @@ nav .container {
 
 .projects-grid {
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     position: relative;
