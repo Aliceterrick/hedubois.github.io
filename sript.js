@@ -49,23 +49,6 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Envoi du formulaire (simulé)
-const contactForm = document.querySelector('.contact-form');
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Récupération des données du formulaire
-    const formData = new FormData(contactForm);
-    const data = Object.fromEntries(formData);
-    
-    // Ici, vous intégreriez votre solution d'envoi d'email
-    console.log('Données du formulaire:', data);
-    
-    // Message de confirmation
-    alert('Message envoyé avec succès !');
-    contactForm.reset();
-});
-
 // Smooth scrolling pour les liens d'ancrage
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Helia Dubois</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -11,12 +11,11 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <a href="#" class="logo">Portfolio</a>
+            <a href="#" class="logo">Helia Dubois</a>
             <ul class="nav-links">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#competences">Compétences</a></li>
-                <li><a href="#apropos">À Propos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-toggle">
@@ -29,12 +28,16 @@
     <section id="accueil" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1><span class="highlight">Helia Dubois</span></h1>
-                <h2>Etudiante en cybersecurite</h2>
+                <h1><span class="highlight">WHOAMI</span></h1>
+                <h2>Étudiante en cybersecurité</h2>
+                <p>Je suis une développeuse passionnée, spécialisée en cybersécurité après avoir terminé le tronc commun de l'école 42. Mon parcours m'a permis d'acquérir une solide compréhension des systèmes informatiques et des enjeux de sécurité qui les entourent.</p>
+                <p>Je me concentre actuellement sur la sécurité offensive et défensive, avec un intérêt particulier pour la recherche de vulnérabilités, le reverse engineering et la sécurisation d'infrastructures.</p>
                 <a href="#projets" class="btn">Voir mes projets</a>
             </div>
             <div class="hero-image">
-                <div class="placeholder-img"></div>
+                <div class="placeholder-img">
+                    <img src="portfolio_img.jpg" class="profile-image">
+                </div>
             </div>
         </div>
     </section>
@@ -46,10 +49,10 @@
             <div class="projects-grid">
                 <!-- Projet 1 -->
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x250" alt="Projet 1">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="ft_irc">
                     <div class="project-info">
                         <h3>Ft_irc</h3>
-                        <p>Description du projet avec les technologies utilisées</p>
+                        <p>Création d'un serveur IRC en C++ avec gestion de canaux et de commandes utilisateur, implémentant le protocole RFC 1459.</p>
                         <div class="project-links">
                             <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-github"></i></a>
@@ -59,10 +62,10 @@
                 
                 <!-- Projet 2 -->
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x250" alt="Projet 2">
+                    <img src="https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="ft_onion">
                     <div class="project-info">
                         <h3>Ft_onion</h3>
-                        <p>Description du projet avec les technologies utilisées</p>
+                        <p>Développement d'un site de chat en mode onion (tor) avec une architecture sécurisée et des services cachés.</p>
                         <div class="project-links">
                             <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-github"></i></a>
@@ -72,10 +75,32 @@
                 
                 <!-- Projet 3 -->
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x250" alt="Projet 3">
+                    <img src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="SnowCrash">
                     <div class="project-info">
                         <h3>SnowCrash</h3>
-                        <p>Description du projet avec les technologies utilisées</p>
+                        <p>Projet de sécurité offensive : découverte et exploitation de vulnérabilités sur une machine virtuelle (CTF style).</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="inception">
+                    <div class="project-info">
+                        <h3>Inception</h3>
+                        <p>Mise en place d'une infrastructure Docker sécurisée avec plusieurs services (WordPress, Nginx, MariaDB).</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="root-me">
+                    <div class="project-info">
+                        <h3>Root-me</h3>
+                        <p>Résolution de challenges de sécurité sur la plateforme Root-me, couvrant divers domaines (web, cryptographie, reverse engineering).</p>
                         <div class="project-links">
                             <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-github"></i></a>
@@ -84,6 +109,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- Section Compétences -->
@@ -115,22 +141,14 @@
                     <i class="fab fa-docker"></i>
                     <h3>Docker</h3>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section À Propos -->
-    <section id="apropos" class="about">
-        <div class="container">
-            <div class="about-image">
-                <div class="placeholder-img"></div>
-            </div>
-            <div class="about-content">
-                <h2 class="section-title">À Propos de Moi</h2>
-                <p>Je suis une développeuse passionnée, </p>
-                <p>En dehors du code, j'aime contribuer à des projets open-source, explorer de nouvelles technologies et participer à des hackathons.</p>
-                <a href="#" class="btn" download>Télécharger mon CV</a>
-            </div>
+                <div class="skill">
+                    <i class="fab fa-microchip"></i>
+                    <h3>ASM</h3>
+                </div>    
+                <div class="skill">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Shell</h3>
+                </div>    
         </div>
     </section>
 
