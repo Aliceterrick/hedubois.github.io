@@ -20,10 +20,12 @@ This project is deployed on GitHub Pages and so available [here](https://alicete
 ---
 
 ## 📁 Project Structure
+
+```
 ├── images
 |  └── website images
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
