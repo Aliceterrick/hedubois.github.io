@@ -1,4 +1,3 @@
-// Menu mobile
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -8,7 +7,6 @@ menuToggle.addEventListener('click', () => {
     menuToggle.querySelector('i').classList.toggle('fa-times');
 });
 
-// Fermer le menu quand on clique sur un lien
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -17,7 +15,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Changement de la navbar au scroll
 const navbar = document.querySelector('nav');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -29,7 +26,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Animation au défilement
 const observerOptions = {
     root: null,
     rootMargin: '0px',
