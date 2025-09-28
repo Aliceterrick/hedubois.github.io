@@ -36,7 +36,6 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Smooth scrolling pour les liens d'ancrage
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
