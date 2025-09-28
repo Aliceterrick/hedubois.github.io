@@ -1,12 +1,3 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    menuToggle.querySelector('i').classList.toggle('fa-bars');
-    menuToggle.querySelector('i').classList.toggle('fa-times');
-});
-
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
